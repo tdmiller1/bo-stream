@@ -10,7 +10,7 @@ export default class App extends Component{
       <div className="App">
       <div className="App-header">
         <h1>BO LIVE</h1>
-        <img src={process.env.BO_IP}></img>
+        <img alt="BO LIVE STREAM" src={process.env.BO_IP}></img>
       </div>
     </div>
     )
