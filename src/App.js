@@ -8,7 +8,7 @@ export default class App extends Component{
       <div className="App">
       <div className="App-header">
         <h1>BO LIVE</h1>
-        <img src="http://bo.tuckermillerdev.com/"></img>
+        <img src={process.env.BO_IP}></img>
       </div>
     </div>
     )
