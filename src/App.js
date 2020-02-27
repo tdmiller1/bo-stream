@@ -5,7 +5,6 @@ import config from './config.js';
 export default class App extends Component{
 
   render () {
-    console.log(process.env);
     return (
       <div className="App">
       <div className="App-header">
