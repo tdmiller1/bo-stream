@@ -9,7 +9,7 @@ export default class App extends Component{
       <div className="App">
       <div className="App-header">
         <h1>BO LIVE</h1>
-        <img src={process.env.NODE_ENV == 'production' ? process.env.IP : 'undefined'}></img>
+        <img src={process.env.NODE_ENV === 'production' ? process.env.IP : 'undefined'}></img>
       </div>
     </div>
     )
